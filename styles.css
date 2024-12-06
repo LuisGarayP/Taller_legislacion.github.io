@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://cdn.pixabay.com/photo/2023/12/17/20/41/ai-generated-8454882_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.content, .login-container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+nav a {
+    color: #00bcd4;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+input, button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00bcd4;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008c9e;
+}
